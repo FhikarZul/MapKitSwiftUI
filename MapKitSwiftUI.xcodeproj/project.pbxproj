@@ -14,6 +14,7 @@
 		8D4B8FFF28C1A2C000E5D51C /* MapKitSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8FFE28C1A2C000E5D51C /* MapKitSwiftUITests.swift */; };
 		8D4B900928C1A2C000E5D51C /* MapKitSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B900828C1A2C000E5D51C /* MapKitSwiftUIUITests.swift */; };
 		8D4B900B28C1A2C000E5D51C /* MapKitSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B900A28C1A2C000E5D51C /* MapKitSwiftUIUITestsLaunchTests.swift */; };
+		8D4B901828C1A59900E5D51C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B901728C1A59900E5D51C /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8D4B900428C1A2C000E5D51C /* MapKitSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4B900828C1A2C000E5D51C /* MapKitSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSwiftUIUITests.swift; sourceTree = "<group>"; };
 		8D4B900A28C1A2C000E5D51C /* MapKitSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D4B901728C1A59900E5D51C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4B8FED28C1A2BE00E5D51C /* MapKitSwiftUIApp.swift */,
+				8D4B901728C1A59900E5D51C /* Location.swift */,
 				8D4B8FEF28C1A2BE00E5D51C /* ContentView.swift */,
 				8D4B8FF128C1A2BF00E5D51C /* Assets.xcassets */,
 				8D4B8FF328C1A2BF00E5D51C /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D4B8FF028C1A2BE00E5D51C /* ContentView.swift in Sources */,
+				8D4B901828C1A59900E5D51C /* Location.swift in Sources */,
 				8D4B8FEE28C1A2BE00E5D51C /* MapKitSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
